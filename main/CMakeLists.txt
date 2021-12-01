@@ -9,5 +9,3 @@ add_executable(main main.cpp)
 find_package(mylib REQUIRED)
 
 target_link_libraries(main mylib)	# do mylib::mylib if namespace is set when the library is installed
-
-message(STATUS ${CMAKE_PREFIX_PATH})
