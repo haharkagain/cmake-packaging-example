@@ -3,13 +3,13 @@ took me a long time to figure it out, anyway here it is
 
 THE FILES:<br />
 mylib:<br />
-  in: these are the files that are used as templates to generate config.cmake and .pc files<br />
-  mylib.cpp: the source code for the library<br />
-  mylib.h: the public header<br />
-  CMakeLists.txt: makes the library and adds an install command<br />
+  * in: these are the files that are used as templates to generate config.cmake and .pc files<br />
+  * mylib.cpp: the source code for the library<br />
+  * mylib.h: the public header<br />
+  * CMakeLists.txt: makes the library and adds an install command<br />
 main:<br />
-  main.cpp: the main source code that needs a function from mylib<br />
-  CMakeLists.txt: finds the mylib package and links it with the maine executable<br />
+  * main.cpp: the main source code that needs a function from mylib<br />
+  * CMakeLists.txt: finds the mylib package and links it with the maine executable<br />
 
 TO RUN:
 
