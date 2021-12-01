@@ -7,6 +7,7 @@ mylib:<br />
   * mylib.cpp: the source code for the library<br />
   * mylib.h: the public header<br />
   * CMakeLists.txt: makes the library and adds an install command<br />
+
 main:<br />
   * main.cpp: the main source code that needs a function from mylib<br />
   * CMakeLists.txt: finds the mylib package and links it with the maine executable<br />
