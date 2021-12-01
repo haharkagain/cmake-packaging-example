@@ -1,7 +1,8 @@
 # cmake-packaging-example
 took me a long time to figure it out, anyway here it is
 
-THE FILES:<br />
+THE FILES:
+
 mylib:<br />
   * in: these are the files that are used as templates to generate config.cmake and .pc files<br />
   * mylib.cpp: the source code for the library<br />
